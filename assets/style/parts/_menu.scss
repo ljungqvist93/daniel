@@ -1,0 +1,37 @@
+#large{
+	background: #ff9966;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(left, #ff5e62, #ff9966);
+	background: -o-linear-gradient(left, #ff5e62, #ff9966);
+	background: linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:400px;
+	bottom: 0;
+	z-index: 99;
+	margin-left: -400px;
+
+	.fas{
+		position: absolute;
+		top:35px;
+		left: 20px;
+		font-size:3em;
+		color:#fff;
+	}
+
+	padding:30px;
+
+	ul{
+		margin-top: 90px;
+		li{
+			font-weight: 900;
+			font-size: 3em;
+			color:#fff;
+			margin-bottom: 30px;
+			&:last-of-type{
+				margin-bottom: 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+#postContent{
+	header{
+		background-color: #fff;
+		color:#333;
+		#share{
+			a{
+				color:#333;
+			}
+		}
+	}
+}
+
+
+#smallHead{
+	h1{
+		color:#333;
+	}
+	#section_time_share{
+		a{
+			color:#333;
+		}
+	}
+}
+
+#titledesc{
+	background-color: #fafafa;
+	*{
+		color:#333;
+	}
+}
+
+#body{
+	p{
+		color:#333;
+	}
+	h1,h2,h3{
+		color:#000;
+	}
+	blockquote{
+		background: #fff;
+		p{
+			color:#fff;
+		}
+	}
+	.fa-margin-15{
+		a{
+			color:#000;
+		}
+	}
+}

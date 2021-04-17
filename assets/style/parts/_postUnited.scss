@@ -1,0 +1,23 @@
+#pText{
+	p{
+		@media screen and (max-width:660px){
+			margin-bottom: 30px;
+			padding: 0 30px;
+		}
+	}
+	img,
+	iframe{
+		@media screen and (max-width:660px){
+			max-width:90%;
+		}
+	}
+	img{
+		max-width: 100%;
+	}
+
+	@media screen and (max-width:660px){
+		iframe{
+			height:200px;
+		}
+	}
+}

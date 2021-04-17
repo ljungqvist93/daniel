@@ -1,0 +1,33 @@
+.facebook{
+	background-color:#4064AD;
+	color:#4064AD;
+}
+.linkedin{
+	background-color: #0174B0;
+	color:#0174B0;
+}
+.reddit{
+	background-color: #F83D07;
+	color:#F83D07;
+}
+.twitter{
+	background-color: #1C9DEB;
+	color:#1C9DEB;
+}
+
+$facebook: #4064AD;
+$linkedin: #0174B0;
+$reddit: #F83D07;
+$twitter: #1C9DEB;
+
+@import 'parts/topper';
+@import 'parts/admin';
+@import 'parts/postSizes/postsizes';
+@import 'parts/postUnited';
+@import 'parts/startpage';
+@import 'parts/about';
+
+body{
+	background-color: #f7f7f7;
+	height: 2000px;
+}
