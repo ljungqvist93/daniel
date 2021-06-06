@@ -74,13 +74,6 @@ include 'connect.php';
 			'postText'		=>	$postText
         ]);
 
-        if ($_POST['reset'] == 1){
-            $reset = $db->prepare("
-                UPDATE posts SET views = 0, created_at = NOW() WHERE id = $id
-            ");
-            $reset->execute();
-        }
-
         $postTags = $db->prepare("
             DELETE
             FROM post_tag
@@ -120,7 +113,6 @@ include 'connect.php';
             ");
             $postTags->execute(['post_id' => $id, 'tag_id' => $tagId]);
         }
-        header("Refresh:0");
         
     }
     
